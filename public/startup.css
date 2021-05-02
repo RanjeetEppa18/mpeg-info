@@ -1,0 +1,115 @@
+.startup-flexbox {
+  font-family: "montserrat_light", "montserrat", Arial;
+}
+body {
+  margin: 0;
+  background-color: #f7f9fb;
+}
+.abs {
+  position: absolute !important;
+}
+.default-white-button:not(.tiny-button):not(.disabled):not(.no-hover):hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 4px;
+}
+.button.big {
+  min-width: 180px;
+  max-width: 180px;
+  padding: 0px 20px;
+}
+.default-white-button.big,
+.default-red-button.big,
+.default-green-button.big {
+  line-height: 43px;
+  height: 43px;
+  font-size: 16px;
+  border-radius: 3px;
+}
+.button.inline,
+.default-white-button.inline,
+.default-grey-button.inline,
+.default-green-button.inline,
+.default-orange-button.inline {
+  display: inline-block;
+  margin: 0px 5px;
+}
+.default-white-button,
+.default-grey-button,
+.default-red-button,
+.default-green-button,
+.default-light-green-button,
+.default-orange-button {
+  display: block;
+  font-family: LatoWeb, source_sans_proregular, Arial;
+  font-size: 14px;
+  line-height: 32px;
+  color: rgb(51, 51, 51);
+  min-width: 102px;
+  height: 32px;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  box-sizing: border-box;
+  white-space: nowrap;
+  border-radius: 4px;
+  padding: 0px 15px;
+  transition: color 200ms ease-in-out 0s, box-shadow 200ms ease-in-out 0s,
+    background-color 200ms ease-in-out 0s;
+}
+
+.dz-preview {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+.default-grey-button::before,
+.default-grey-button::after,
+.default-white-button:not(.light)::before,
+.default-white-button::after,
+.default-red-button::before,
+.default-red-button::after,
+.default-green-button::before,
+.default-light-green-button::before,
+.default-light-green-button::after,
+.default-orange-button::before,
+.default-orange-button::after {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  border-radius: inherit;
+}
+
+.default-white-button::after {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.default-grey-button::before,
+.default-grey-button::after,
+.default-white-button:not(.light)::before,
+.default-white-button::after,
+.default-red-button::before,
+.default-red-button::after,
+.default-green-button::before,
+.default-light-green-button::before,
+.default-light-green-button::after,
+.default-orange-button::before,
+.default-orange-button::after {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  border-radius: inherit;
+}
