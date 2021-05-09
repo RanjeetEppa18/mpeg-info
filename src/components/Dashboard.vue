@@ -16,7 +16,7 @@
       <div class="info z-1">
         Drop your files below ~ <strong>100 MB </strong>file size
       </div>
-      <Dropzone />
+      <!-- <Dropzone /> -->
       <Button />
     </div>
   </transition>
@@ -25,10 +25,10 @@
 <script>
 import Button from "@/components/Button";
 import Avatar from "@/components/Avatar";
-import Dropzone from "@/components/Dropzone";
+// import Dropzone from "@/components/Dropzone";
 export default {
   name: "Dashboard",
-  components: { Dropzone, Button, Avatar },
+  components: { Button, Avatar },
   data() {
     return {
       splash: true,
